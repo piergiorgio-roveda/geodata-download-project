@@ -485,4 +485,46 @@ Simple resource tracking for the geoData Download project.
 * **LICENSE**: Global Map policy – free for non‑commercial use ([GitHub][6], [GitHub][7])
 * **Description**: National topographic dataset compiled to Global Map specs (boundaries, transport, hydrography, built‑up areas, etc.) in shapefile format; useful baseline for strategic planning and cartography at 1 : 50 k–1 : 500 k scales.
 
+### geoHungary (Administrative & Postal Layers)
+
+* **Resource Name**: geoHungary
+* **URL**: [https://github.com/wuerdo/geoHungary](https://github.com/wuerdo/geoHungary)
+* **LICENSE**: *Unspecified* – check before any commercial redistribution
+* **Description**: Complete set of GeoJSON files for every official administrative tier in Hungary (NUTS 1–3, LAU 1–2), plus national outline and postcode polygons, ready for quick mapping or joins. ([GitHub][1])
+
+### geo‑data‑hungary (CC BY‑SA 3.0)
+
+* **Resource Name**: geo‑data‑hungary
+* **URL**: [https://github.com/integralvision/geo-data-hungary](https://github.com/integralvision/geo-data-hungary)
+* **LICENSE**: CC BY‑SA 3.0 ([GitHub][2])
+* **Description**: Curated GeoJSON & SVG boundary layers (country, counties, districts, settlements) cleaned and simplified for web display; ideal base‑map for Hungarian dashboards. ([GitHub][3])
+
+### hu‑postal‑codes
+
+* **Resource Name**: hu‑postal‑codes
+* **URL**: [https://github.com/pbakondy/hu-postal-codes](https://github.com/pbakondy/hu-postal-codes)
+* **LICENSE**: MIT ([GitHub][4])
+* **Description**: Machine‑readable JSON dataset of every Hungarian ZIP code, with city‑level splits and per‑street files for Budapest and major towns—handy for geocoders or service‑area analysis. ([GitHub][4])
+
+### gtfs\_kecskemet (Transit Vectors)
+
+* **Resource Name**: Unofficial Kecskemét GTFS
+* **URL**: [https://github.com/derilevi/gtfs\_kecskemet](https://github.com/derilevi/gtfs_kecskemet)
+* **LICENSE**: No explicit license (author states free use with attribution)
+* **Description**: Full GTFS feed for the city of Kecskemét—routes, stops, shapes and schedules—built from local timetables & OpenStreetMap; useful for routing, accessibility and TOD studies. ([GitHub][5])
+
+### Hungarian‑Counties 1785
+
+* **Resource Name**: Hungarian‑Counties (Josephine Land Survey)
+* **URL**: [https://github.com/kairom13/Hungarian-Counties](https://github.com/kairom13/Hungarian-Counties)
+* **LICENSE**: GPL‑3.0 ([GitHub][6])
+* **Description**: Historical shapefile of county borders from the 1785 Josephine cadastre—perfect for temporal urbanisation or boundary‑change research. ([GitHub][6])
+
+### Magyarország Települései
+
+* **Resource Name**: Hungary Settlements by County
+* **URL**: [https://github.com/eriksulymosi/magyarorszag-telepulesei](https://github.com/eriksulymosi/magyarorszag-telepulesei)
+* **LICENSE**: *Unspecified*
+* **Description**: Per‑county GeoJSON layers of all inhabited places—useful for locator maps, population joins or regional choropleths without heavyweight datasets. ([GitHub][7])
+
 <!-- Add new resources here following the template above -->
