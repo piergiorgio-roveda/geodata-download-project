@@ -391,4 +391,98 @@ Simple resource tracking for the geoData Download project.
 * **LICENSE**: MIT
 * **Description**: GPS polygon outlines for all Czech regions (kraje) alongside lookup tables linking ZIP codes to counties and regions—handy for geocoding, market studies and regional dashboards. ([GitHub][6])
 
+---
+
+### Greek Open Data (QGIS Plugin)
+
+* **URL**: [https://github.com/tha-lis/GreekOpenData](https://github.com/tha-lis/GreekOpenData)
+* **LICENSE**: GPL v3
+* **Description**: QGIS plugin bundling ready‑to‑use WFS/WMS layers from multiple Greek government agencies—administrative boundaries, cadastre, land‑use plans, protected areas, ortho‑imagery—so you can pull vector layers straight into your GIS without hunting down endpoints. ([GitHub][1])
+
+---
+
+### Greek Data (QGIS Plugin)
+
+* **URL**: [https://github.com/lymperis-e/Greek-Data-QGIS-Plugin](https://github.com/lymperis-e/Greek-Data-QGIS-Plugin)
+* **LICENSE**: GPL v3
+* **Description**: Alternative QGIS plugin that auto‑lists official Greek open‑data nodes and lets you preview attributes or add vector layers (mainly WFS) such as municipalities, transport networks, DEM tiles, and environmental zones in one click. ([GitHub][2])
+
+---
+
+### Greek Cities & Villages Geolocation Dataset
+
+* **URL**: [https://github.com/arispapapro/Greek-Cities-and-Villages-Geolocation-Dataset](https://github.com/arispapapro/Greek-Cities-and-Villages-Geolocation-Dataset)
+* **LICENSE**: *No license file declared*
+* **Description**: JSON dataset with coordinates, population (ELSTAT 2021), and full admin hierarchy (region → peripheral unit → municipality) for \~40 k settlements—handy for quick geocoding or urban‑rural analyses. ([GitHub][3])
+
+---
+
+### Greece Population Census 2021 Data
+
+* **URL**: [https://github.com/tdiam/greece-population-census-2021](https://github.com/tdiam/greece-population-census-2021)
+* **LICENSE**: Data CC0 + Code MIT
+* **Description**: Machine‑readable CSVs of provisional 2021 census counts by region and municipality, including male/female splits; repo also contains extraction scripts and ELSTAT codes. ([GitHub][4])
+
+---
+
+### Click‑That‑Hood — Greece Regions GeoJSON
+
+* **URL**: [https://github.com/codeforgermany/click\_that\_hood/tree/main/public/data/greece-regions.geojson](https://github.com/codeforgermany/click_that_hood/tree/main/public/data/greece-regions.geojson)
+* **LICENSE**: MIT
+* **Description**: Lightweight GeoJSON polygons for all 13 Greek regions (Περιφέρειες), originally built for the Click‑That‑Hood mapping game—perfect for quick demos, choropleths, or unit testing. ([GitHub][5])
+
+---
+
+### geoBoundaries – Romania Administrative Boundaries
+
+* **Resource Name**: geoBoundaries – Romania
+* **URL**: [https://github.com/wmgeolab/geoBoundaries](https://github.com/wmgeolab/geoBoundaries)
+* **LICENSE**: CC BY 4.0 / ODbL ([GitHub][1])
+* **Description**: Global project that supplies versioned GeoJSON/Shapefile boundaries for every country. Romania is covered from ADM 0 (national) down to ADM 2 (counties), with QA checks and rich metadata—perfect for any jurisdiction‑level analysis.
+
+---
+
+### Official Romania Administrative Shapefiles
+
+* **Resource Name**: Official Romania Administrative Boundary Shapefile
+* **URL**: [https://github.com/justinelliotmeyers/official\_romania\_administrative\_boundary\_shapefile](https://github.com/justinelliotmeyers/official_romania_administrative_boundary_shapefile)
+* **LICENSE**: *No license file – verify before commercial use* ([GitHub][2])
+* **Description**: Direct download of first‑, second‑ and third‑order administrative units (shp/dbf/prj) published by Romanian authorities, ready for GIS workflows in the national Stereo 70 projection.
+
+---
+
+### Romanian‑Cities
+
+* **Resource Name**: Romanian Cities & Populations
+* **URL**: [https://github.com/bogdanlungu/romanian-cities](https://github.com/bogdanlungu/romanian-cities)
+* **LICENSE**: MIT ([GitHub][3])
+* **Description**: NPM/JSON dataset listing every Romanian city with 2002 & 2011 census populations, county codes and helper JS functions—handy for demographic dashboards or quick geocoding.
+
+---
+
+### romania.json
+
+* **Resource Name**: Romania Regions, Cities & Schools JSON
+* **URL**: [https://github.com/rennokki/romania.json](https://github.com/rennokki/romania.json)
+* **LICENSE**: MIT ([GitHub][4])
+* **Description**: Hierarchical JSON files containing regions → cities (with ZIP codes & lat/long) and beta layers of schools/high‑schools—lightweight reference for forms, locators or API seeding.
+
+---
+
+### romania‑uat
+
+* **Resource Name**: Romania‑UAT Simplified Polygons
+* **URL**: [https://github.com/akaleeroy/romania-uat](https://github.com/akaleeroy/romania-uat)
+* **LICENSE**: *No license file – assumed All Rights Reserved* ([GitHub][5])
+* **Description**: Workflow and outputs that split and simplify Romania’s detailed UAT (local‑administrative) GeoJSON into per‑county files and compact SVGs—ideal when you need performant county maps on the web.
+
+---
+
+### Global Map Romania 2.0
+
+* **Resource Name**: Global Map Romania 2.0
+* **URL**: [https://github.com/globalmaps/gmro20](https://github.com/globalmaps/gmro20)
+* **LICENSE**: Global Map policy – free for non‑commercial use ([GitHub][6], [GitHub][7])
+* **Description**: National topographic dataset compiled to Global Map specs (boundaries, transport, hydrography, built‑up areas, etc.) in shapefile format; useful baseline for strategic planning and cartography at 1 : 50 k–1 : 500 k scales.
+
 <!-- Add new resources here following the template above -->
