@@ -1,1 +1,4 @@
 /geodata-download-project.code-workspace
+.external-repo-docs/
+.RooDocumentation/
+.roo/
