@@ -98,12 +98,6 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/eea-urban-altas-2018.yaml](https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/eea-urban-altas-2018.yaml)
 * **Description**: Pan‑European high‑resolution land‑use/land‑cover vectors for 788 Functional Urban Areas across EU, EFTA, West Balkans, UK & Türkiye (2006 / 2012 / 2018 editions) — ideal for zoning, density and green‑space studies.
 
-### HydroBASINS (Sub‑Basins by WRI)
-
-* **Resource Name**: HydroBASINS Sub‑Basins
-* **URL**: [https://github.com/wri/sub\_basins](https://github.com/wri/sub_basins)
-* **Description**: Cleaned, multi‑level river‑basin polygons derived from HydroSHEDS HydroBASINS v1; repository scripts merge Pfafstetter levels and fix coastal/delta issues for water‑risk and catchment analyses.
-
 ### HydroLAKES (Global Lake Polygons)
 
 * **Resource Name**: HydroLAKES v10
@@ -230,12 +224,6 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://geoportal.zagreb.hr/](https://geoportal.zagreb.hr/)
 * **Description**: Municipal open geoportal offering land-use plans (GUP), zoning, demographics, transport, green infrastructure, 3D city model and more—downloadable through ArcGIS WMS/WFS endpoints. 
 
-### Geoportal kulturnih dobara Republike Hrvatske
-
-* **Resource Name**: Croatian Cultural Property Geoportal
-* **URL**: [https://geoportal.kulturnadobra.hr/](https://geoportal.kulturnadobra.hr/)
-* **Description**: Ministry of Culture WMS/WFS services with vector footprints of immovable cultural heritage sites and protected zones—crucial for heritage constraints in urban planning. 
-
 ### Baza javnih cesta Republike Hrvatske
 
 * **Resource Name**: Database of Public Roads of Croatia (INSPIRE download)
@@ -325,5 +313,40 @@ Simple resource tracking for the geoData Download project.
 * **Resource Name**: Bulgarian Government Open Data Portal
 * **URL**: [https://opendata.government.bg/](https://opendata.government.bg/)
 * **Description**: CKAN‑based national portal publishing machine‑readable datasets (including GeoJSON/Shapefile) from ministries and agencies; highlighted in government open‑data strategy documents.&#x20;
+
+### CAOP Portugal GeoJSON
+
+* **Resource Name**: CAOP Portugal GeoJSON
+* **URL**: [https://github.com/nmota/caop\_GeoJSON](https://github.com/nmota/caop_GeoJSON)
+* **LICENSE**: CC BY 4.0 (Direção‑Geral do Território open‑data licence) ([dgterritorio.gov.pt][1])
+* **Description**: Official Portuguese administrative boundaries (districts, municipalities, parishes) for mainland, Azores & Madeira exported to ready‑to‑use GeoJSON files. ([GitHub][2])
+
+### Portuguese Postal Codes (CP7)
+
+* **Resource Name**: CP7 – Portuguese ZIP Codes with Coordinates
+* **URL**: [https://github.com/temospena/CP7](https://github.com/temospena/CP7)
+* **LICENSE**: GPL‑3.0 ([GitHub][3])
+* **Description**: Georeferenced database of 150 k+ seven‑digit postal codes, with point and polygon layers (CP7 & estimated CP4 areas) provided in Shapefile/GeoJSON for routing and market‑analysis work. ([GitHub][3])
+
+### GEO API PT
+
+* **Resource Name**: GEO API PT
+* **URL**: [https://github.com/Moser-ss/geoapi.pt](https://github.com/Moser-ss/geoapi.pt)
+* **LICENSE**: GPL‑3.0 ([GitHub][4])
+* **Description**: REST API and data pack built from CAOP 2021—returns district, municipality, parish, postal‑code and census attributes for any lat/long and ships the underlying vector layers for standalone use. ([GitHub][4])
+
+### CAOP.RAA 2024 (Azores Boundaries)
+
+* **Resource Name**: CAOP.RAA 2024
+* **URL**: [https://github.com/patterninstitute/CAOP.RAA.2024](https://github.com/patterninstitute/CAOP.RAA.2024)
+* **LICENSE**: MIT ([GitHub][5])
+* **Description**: R package bundling 2024 CAOP shapefiles for the Azores—district (island), municipality and parish tiers—plus helper functions to load them as **sf** objects in native UTM 25/26 N or LAEA projections. ([GitHub][5])
+
+### Portugal Wild‑Fire Burned‑Area Maps
+
+* **Resource Name**: mp‑incêndios (Burned Areas, 1980‑2020s)
+* **URL**: [https://github.com/dssg-pt/mp-incendios](https://github.com/dssg-pt/mp-incendios)
+* **LICENSE**: MIT ([GitHub][6])
+* **Description**: Repository hosting cleaned shapefiles of yearly forest‑fire perimeters and an interactive map app; covers four decades of official burned‑area records for risk and land‑management studies. ([GitHub][6])
 
 <!-- Add new resources here following the template above -->
