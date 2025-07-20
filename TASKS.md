@@ -33,6 +33,17 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://github.com/microsoft/RoadDetections](https://github.com/microsoft/RoadDetections?tab=readme-ov-file)
 * **Description**: Bing Maps is releasing mined roads around the world. We have detected 54.2M km of roads worldwide. Mining is performed with Bing Maps imagery including Maxar and Airbus. The data is freely available for download and use under the Open Data Commons Open Database License (ODbL). We plan to opensource both NN model and geometry generation code in first half of 2025.
 
+### ESRI open WFS
+
+* **URL**: [https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services](https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services)
+
+### Who’s On First — NL Postal‑Code Gazetteer
+
+* **Resource Name**: whosonfirst‑data‑postalcode‑nl
+* **URL**: [https://github.com/whosonfirst-data/whosonfirst-data-postalcode-nl](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-nl)
+* **LICENSE**: CC 0 1.0 (public‑domain dedication) ([GitHub][7])
+* **Description**: GeoJSON gazetteer for \~372 k Dutch PC4 & PC6 codes—each with stable IDs, hierarchy links and polygons/centroids—ready for Pelias, tiling or spatial search workflows. ([GitHub][8])
+
 ### Global ML Building Footprints
 
 * **Resource Name**: Microsoft Global Building Footprints (Italy)
@@ -93,11 +104,6 @@ Simple resource tracking for the geoData Download project.
 * **Resource Name**: Justin Meyers Geospatial Datasets
 * **URL**: [https://github.com/justinelliotmeyers](https://github.com/justinelliotmeyers)
 * **Description**: Personal archive of 270 + vector datasets—e.g., a global Sentinel‑2 scene index, official India administrative boundaries & PIN‑codes, village and census layers—shared in Shapefile/GeoJSON for quick urban‑planning analyses.
-### Who’s On First Gazetteer
-
-* **Resource Name**: Who’s On First Gazetteer
-* **URL**: [https://github.com/whosonfirst-data/whosonfirst-data](https://github.com/whosonfirst-data/whosonfirst-data)
-* **Description**: Global gazetteer of administrative areas, cities, neighborhoods, and points‑of‑interest—delivered as GeoJSON with stable IDs and rich hierarchy, split into per‑country repos for easy download and update.
 
 ### Global Roads Inventory Project (GRIP)
 
@@ -693,14 +699,6 @@ Simple resource tracking for the geoData Download project.
 
 ---
 
-### Who’s On First — Malta Admin Gazetteer
-
-* **URL**: [https://github.com/whosonfirst-data/whosonfirst-data-admin-mt](https://github.com/whosonfirst-data/whosonfirst-data-admin-mt)
-* **LICENSE**: CC BY 4.0 / ODbL mix (see repo license) ([GitHub][3])
-* **Description**: Hierarchical GeoJSON records for national, regional and locality boundaries, each with stable IDs, placenames, centroids and supersession history—ideal for gazetteer look‑ups and boundary joins. ([GitHub][3])
-
----
-
 ### Eurostat NUTS 2 JSON (includes Malta)
 
 * **URL**: [https://github.com/eurostat/Nuts2json](https://github.com/eurostat/Nuts2json)
@@ -751,22 +749,6 @@ Simple resource tracking for the geoData Download project.
 * **LICENSE**: MIT ([GitHub][5])
 * **Description**: PHP/JSON dataset of national postal codes grouped by ISO region & province, with helper functions to query municipalities↔ZIP relationships—useful for postal‑based filtering, logistics or demographic dashboards. ([GitHub][5])
 
-### Who’s On First — Monaco Administrative Gazetteer
-
-* **URL**: [https://github.com/whosonfirst-data/whosonfirst-data-admin-mc](https://github.com/whosonfirst-data/whosonfirst-data-admin-mc)
-* **LICENSE**: Creative Commons Zero 1.0 (CC 0) with source‑specific attribution notes where required ([GitHub][1])
-* **Description**: GeoJSON records for every administrative unit in the Principality—from country (ADM0) to local quarters—with stable WOF IDs, centroids, and rich concordances; ideal as an authoritative boundary or lookup layer for any Monaco‑centric project. ([GitHub][2])
-
----
-
-### Who’s On First — Monaco Postal Codes
-
-* **URL**: [https://github.com/whosonfirst-data/whosonfirst-data-postalcode-mc](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-mc)
-* **LICENSE**: Creative Commons Zero 1.0 (inherits WOF license) ([GitHub][3])
-* **Description**: Open GeoJSON gazetteer covering all Monegasque 980 xx postal codes; includes centroids, hierarchy links and (where available) polygons—ready for geocoding, routing or Pelias imports. ([GitHub][4])
-
----
-
 ### Monaco Boundary GeoJSON (Gist)
 
 * **URL**: [https://gist.github.com/Rub21/841d507390e62a552e06e4603e8de72f](https://gist.github.com/Rub21/841d507390e62a552e06e4603e8de72f)
@@ -780,5 +762,82 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://github.com/nvkelso/natural-earth-vector](https://github.com/nvkelso/natural-earth-vector) (file: `10m_cultural/ne_10m_admin_0_sovereignty.*`)
 * **LICENSE**: Public Domain ([GitHub][6])
 * **Description**: Public‑domain shapefile/GeoJSON of global country borders; Monaco’s polygon (with ISO, POP\_EST, GDP and capital fields) offers a clean, small‑scale base layer for thematic or reference maps without licensing constraints. ([GitHub][7])
+
+### cartomap — GeoJSON & TopoJSON for Dutch Areas
+
+* **Resource Name**: cartomap/nl
+* **URL**: [https://github.com/cartomap/nl](https://github.com/cartomap/nl)
+* **LICENSE**: *No explicit repo license* — underlying PDOK/CBS source data are CC BY 4.0; verify before commercial use ([GitHub][1])
+* **Description**: Simplified municipality, province and other boundary layers in both **WGS 84** and **RD (EPSG 28992)**, exported as GeoJSON/TopoJSON for fast national‑scale web maps. ([GitHub][1])
+
+---
+
+### map‑nl — PC4 Postal‑Code Polygons
+
+* **Resource Name**: map‑nl
+* **URL**: [https://github.com/fpgmaas/map-nl](https://github.com/fpgmaas/map-nl)
+* **LICENSE**: MIT ([GitHub][2])
+* **Description**: Python package that auto‑downloads the official **PC4** (first‑4‑digit) postcode polygons from CBS/OpendataSoft (CC BY 4.0) and plots them with Folium—handy for quick postcode‑level choropleths. ([GitHub][3])
+
+---
+
+### 6PP Postcodes — Nation‑wide Centroids
+
+* **Resource Name**: 6pp‑postcodes
+* **URL**: [https://github.com/zypp-io/6pp-postcodes](https://github.com/zypp-io/6pp-postcodes)
+* **LICENSE**: *No license file* — coordinates derived from CBS “Volledige PC6” open dataset (CC BY 4.0) ([GitHub][4])
+* **Description**: CSV with latitude/longitude for **464 k Dutch PC6** (full six‑character) postcodes—ideal for lightweight geocoding, proximity joins or postcode look‑ups. ([GitHub][4])
+
+---
+
+### NLExtract — Dutch Base‑Registry ETL
+
+* **Resource Name**: NLExtract
+* **URL**: [https://github.com/nlextract/NLExtract](https://github.com/nlextract/NLExtract)
+* **LICENSE**: GPL v3 ([GitHub][5])
+* **Description**: Open‑source toolkit that converts raw government registries—**BAG** (addresses & buildings), **Top10NL**, **IMGeo/BGT**, **NWB**—into PostGIS and makes ready‑to‑use shapefiles/SLDs, streamlining large‑scale Dutch geodata pipelines. ([GitHub][6])
+
+### dagi — Administrative Boundaries of Denmark
+
+* **Resource Name**: dagi (Danish Administrative Boundaries)
+* **URL**: [https://github.com/Neogeografen/dagi](https://github.com/Neogeografen/dagi)
+* **LICENSE**: *No explicit license file – data derived from the open FOT dataset published by Geodatastyrelsen & Danske Kommuner; review before commercial reuse.*
+* **Description**: GeoJSON and TopoJSON layers for all Danish administrative units (regions, municipalities, parishes, constituencies, police & judicial districts). Handy, lightweight sources for any project needing authoritative borders. ([GitHub][1])
+
+---
+
+### geoJSON‑Danish‑municipalities
+
+* **Resource Name**: Danish Municipalities & Postal Codes GeoJSON
+* **URL**: [https://github.com/magnuslarsen/geoJSON-Danish-municipalities](https://github.com/magnuslarsen/geoJSON-Danish-municipalities)
+* **LICENSE**: *No license file – inherits FOT open‑data terms; check before redistribution.*
+* **Description**: Ready‑to‑use GeoJSON for Denmark’s 98 municipalities **plus** national postal‑code polygons, each with bilingual labels, LAU1 codes and Kibana configuration examples for fast web mapping. ([GitHub][2])
+
+---
+
+### geodata (Open Knowledge DK)
+
+* **Resource Name**: Central Repository of Open Danish Geodata
+* **URL**: [https://github.com/ok-dk/geodata](https://github.com/ok-dk/geodata)
+* **LICENSE**: *No license file – aggregates openly licensed layers (administrative units, zip codes, police districts, parishes, etc.) into GeoJSON/TopoJSON; verify per‑layer attribution.*
+* **Description**: Curated TopoJSON/GeoJSON bundles covering municipalities, regions, constituencies, parishes and zip codes, maintained by Open Knowledge Denmark; great one‑stop shop for common Danish reference layers. ([GitHub][3])
+
+---
+
+### dk‑postals
+
+* **Resource Name**: Danish Postal Numbers CSV/JSON
+* **URL**: [https://github.com/DanielZambelli/dk-postals](https://github.com/DanielZambelli/dk-postals)
+* **LICENSE**: *No license file – raw data scraped from PostNord; confirm terms before use.*
+* **Description**: CSV and JSON files listing every Danish postal code with municipality and region identifiers, plus a pre‑grouped “postals‑by‑region” JSON for quick look‑ups or joins. ([GitHub][4])
+
+---
+
+### Danmarks Adresser Web API (DAWA)
+
+* **Resource Name**: DAWA — Full Danish Address Database & API
+* **URL**: [https://github.com/DanmarksAdresser/Dawa](https://github.com/DanmarksAdresser/Dawa)
+* **LICENSE**: MIT
+* **Description**: Complete codebase (and bulk‑data replication scripts) for Denmark’s official address register: points for every building entrance, road, and house number, served via a REST API or downloadable PostgreSQL dumps—ideal for geocoding or address validation workflows. ([GitHub][5])
 
 <!-- Add new resources here following the template above -->
