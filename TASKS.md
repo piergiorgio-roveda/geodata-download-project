@@ -92,5 +92,40 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://github.com/generalpiston/geojson-us-city-boundaries](https://github.com/generalpiston/geojson-us-city-boundaries)
 * **Description**: TIGER/Line “PLACE” shapefiles transformed to ready‑to‑use GeoJSON polygons for every incorporated place in the United States—handy for municipal‑scale dashboards. ([GitHub][6])
 
+### Copernicus Urban Atlas 2018
+
+* **Resource Name**: Copernicus Urban Atlas 2018
+* **URL**: [https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/eea-urban-altas-2018.yaml](https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/eea-urban-altas-2018.yaml)
+* **Description**: Pan‑European high‑resolution land‑use/land‑cover vectors for 788 Functional Urban Areas across EU, EFTA, West Balkans, UK & Türkiye (2006 / 2012 / 2018 editions) — ideal for zoning, density and green‑space studies. ([GitHub][1])
+
+### GHSL Urban Centre Database (UCDB R2024A)
+
+* **Resource Name**: GHSL Urban Centre Database
+* **URL**: [https://human-settlement.emergency.copernicus.eu/download.php](https://human-settlement.emergency.copernicus.eu/download.php)
+* **Description**: Global shapefiles of Urban‑Centre and Dense‑Urban‑Cluster boundaries (epoch 2020) from the JRC Global Human Settlement Layer, with population, extent and hierarchy attributes for every city ≥50 k inhabitants. ([human-settlement.emergency.copernicus.eu][2])
+
+### HydroBASINS (Sub‑Basins by WRI)
+
+* **Resource Name**: HydroBASINS Sub‑Basins
+* **URL**: [https://github.com/wri/sub\_basins](https://github.com/wri/sub_basins)
+* **Description**: Cleaned, multi‑level river‑basin polygons derived from HydroSHEDS HydroBASINS v1; repository scripts merge Pfafstetter levels and fix coastal/delta issues for water‑risk and catchment analyses. ([GitHub][3])
+
+### HydroLAKES (Global Lake Polygons)
+
+* **Resource Name**: HydroLAKES v10
+* **URL**: [https://github.com/chartcatalogs/water\_bodies](https://github.com/chartcatalogs/water_bodies)
+* **Description**: CC‑BY 4.0 database of 1.4 million lake and reservoir polygons with area, volume and mean‑depth fields — useful for blue‑green infrastructure, flood‑storage and recreation planning. ([GitHub][4])
+
+### GADM Consolidated Shapefile (Level 0)
+
+* **Resource Name**: GADM Global Boundaries
+* **URL**: [https://github.com/gozwei/GADM-consolidated-shapefile](https://github.com/gozwei/GADM-consolidated-shapefile)
+* **Description**: Script‑generated worldwide country‑boundary shapefile consolidated from GADM 4.1; handy single‑file layer for quick admin‑context overlays without per‑country downloads. ([GitHub][5])
+
+### Global Power Plant Database
+
+* **Resource Name**: Global Power Plant Database
+* **URL**: [https://github.com/wri/global-power-plant-database](https://github.com/wri/global-power-plant-database)
+* **Description**: Open CC‑BY 4.0 CSV & Geo data on \~35 k power plants in 167 countries (fuel, capacity, geolocation, generation) — valuable for energy‑infrastructure, emissions and resilience studies. ([GitHub][6])
 
 <!-- Add new resources here following the template above -->
