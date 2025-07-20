@@ -46,6 +46,12 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://github.com/martynafford/natural-earth-geojson](https://github.com/martynafford/natural-earth-geojson)
 * **Description**: Public‑domain global basemap layers (land, water, boundaries, cities) at 1:10 m / 50 m / 110 m scales, converted from shapefiles to GeoJSON for easy urban‑planning workflows.
 
+### Natural Earth GeoJSON
+
+* **Resource Name**: EU Postal codes
+* **URL**: [https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/postal-codes](https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/postal-codes)
+* **Description**: A postal code is a series of letters and/or numbers for sorting mail. The postal code point dataset shows the location of postal codes, NUTS codes and the degree of urbanisation classification across EU, EFTA and candidate countries from various sources..
+
 ### Microsoft Global Building Footprints
 
 * **Resource Name**: Microsoft Global Building Footprints
@@ -436,7 +442,29 @@ Simple resource tracking for the geoData Download project.
 * **LICENSE**: Data CC0 + Code MIT
 * **Description**: Machine‑readable CSVs of provisional 2021 census counts by region and municipality, including male/female splits; repo also contains extraction scripts and ELSTAT codes. ([GitHub][4])
 
+### Greek Postal Codes — Lat/Lon Centroids
+
+* **Resource Name**: grpostcodes (Mentat Innovations)
+* **URL**: [https://github.com/MentatInnovations/grpostcodes](https://github.com/MentatInnovations/grpostcodes)
+* **LICENSE**: Apache 2.0 ([GitHub][1])
+* **Description**: CSV & JSON lists of every Greek 5‑digit postal code with approximate latitude/longitude and administrative‐area tags, scraped from public map services—handy for quick geocoding or choropleths without polygon data.
+
+### Greek Postal Code Sectors — Municipality of Athens
+
+* **Resource Name**: Greek Postal Code Sectors (Athens)
+* **URL**: [https://geodata.gov.gr/dataset/taxudpou1koi-kwd1kes-otnv-ttep1oxn-tou-anuou-a0nvaiwv](https://geodata.gov.gr/dataset/taxudpou1koi-kwd1kes-otnv-ttep1oxn-tou-anuou-a0nvaiwv)
+* **LICENSE**: Creative Commons Attribution 3.0 GR (CC BY 3.0) ([geodata.gov.gr][1])
+* **Description**: City‑published ZIP‑sector polygons for the entire Municipality of Athens exposed through a WFS endpoint (OGC 2.0.0). Useful as an authoritative base layer for address validation, routing or service‑area analysis. ([geodata.gov.gr][1])
+
 ---
+
+### Thessaloniki Postal Code Boundaries
+
+* **Resource Name**: Postal Code Boundaries — City of Thessaloniki
+* **URL**: [https://opendata.thessaloniki.gr/en/dataset/29a3a4ae-afa0-4f09-b364-6fcaf9869b54](https://opendata.thessaloniki.gr/en/dataset/29a3a4ae-afa0-4f09-b364-6fcaf9869b54)
+* **LICENSE**: Open Licence for Public Geospatial Information v1.0 (GR) ([opendata.thessaloniki.gr][2])
+* **Description**: Shapefile, KML and DXF layers delineating every postal‑code area inside Thessaloniki; the portal also offers a Carto preview and JSON/RDF API for programmatic access. Ideal for city‑scale logistics or demographic dashboards. ([opendata.thessaloniki.gr][2])
+
 
 ### Click‑That‑Hood — Greece Regions GeoJSON
 
@@ -647,4 +675,79 @@ Simple resource tracking for the geoData Download project.
 
 ---
 
+---
+
+### Malta Administrative Boundaries
+
+* **URL**: [https://github.com/DaveMicallef/Malta\_AdministrativeBoundaries](https://github.com/DaveMicallef/Malta_AdministrativeBoundaries)
+* **LICENSE**: MIT ([GitHub][1])
+* **Description**: Clean GeoJSON/Shapefile polygons for all Maltese local councils extracted from the Planning Authority’s INSPIRE GML, merged with multilingual aliases—ready as a drop‑in basemap for municipal analytics. ([GitHub][1])
+
+---
+
+### GeoMalta Toolkit
+
+* **URL**: [https://github.com/matteorapa/geomalta](https://github.com/matteorapa/geomalta)
+* **LICENSE**: Apache‑2.0 ([GitHub][2])
+* **Description**: GeoPandas helper package bundling authoritative PA shapefiles (localities, planning zones) plus convenience methods for choropleths, interactive maps and spatial joins tailored to Malta. ([GitHub][2])
+
+---
+
+### Who’s On First — Malta Admin Gazetteer
+
+* **URL**: [https://github.com/whosonfirst-data/whosonfirst-data-admin-mt](https://github.com/whosonfirst-data/whosonfirst-data-admin-mt)
+* **LICENSE**: CC BY 4.0 / ODbL mix (see repo license) ([GitHub][3])
+* **Description**: Hierarchical GeoJSON records for national, regional and locality boundaries, each with stable IDs, placenames, centroids and supersession history—ideal for gazetteer look‑ups and boundary joins. ([GitHub][3])
+
+---
+
+### Eurostat NUTS 2 JSON (includes Malta)
+
+* **URL**: [https://github.com/eurostat/Nuts2json](https://github.com/eurostat/Nuts2json)
+* **LICENSE**: EUPL 1.2 ([GitHub][4])
+* **Description**: Versioned Geo/TopoJSON of all NUTS levels (2010‑2024), in WGS 84, Web Mercator and LAEA projections; Malta’s NUTS 0–3 layers can be fetched in one URL for cross‑EU statistical mapping. ([GitHub][4])
+
+---
+### Belgium TopoJSON (Municipalities → Provinces)
+
+* **Resource Name**: Belgium TopoJSON
+* **URL**: [https://github.com/bmesuere/belgium-topojson](https://github.com/bmesuere/belgium-topojson)
+* **LICENSE**: CC 0 1.0 ([GitHub][1])
+* **Description**: Single TopoJSON file containing polygons for every municipality, arrondissement & province, each with NIS codes, bilingual names and 2020 population attributes—ready for lightweight web maps or data joins. ([GitHub][1])
+
+---
+
+### Belgian Cities Geocoded (+ Postal Codes)
+
+* **Resource Name**: belgian‑cities‑geocoded
+* **URL**: [https://github.com/spatie/belgian-cities-geocoded](https://github.com/spatie/belgian-cities-geocoded)
+* **LICENSE**: MIT ([GitHub][2])
+* **Description**: CSV listing all Belgian towns & villages with 5‑digit postal code, latitude/longitude and bilingual names—ideal for geocoding forms, centroid mapping or quick spatial look‑ups. ([GitHub][2])
+
+---
+
+### BelgiumMaps.StatBel (R Package)
+
+* **Resource Name**: BelgiumMaps.StatBel
+* **URL**: [https://github.com/bnosac/BelgiumMaps.StatBel](https://github.com/bnosac/BelgiumMaps.StatBel)
+* **LICENSE**: CC BY 2.0 ([GitHub][3])
+* **Description**: R data package offering national → statistical‑sector boundary layers (WGS 84) derived from Statistics Belgium open data, plus hierarchy tables—handy for analysis, mapping and joins inside the R ecosystem. ([GitHub][3])
+
+---
+
+### Municipalities‑in‑Belgium (GeoJSON & KML)
+
+* **Resource Name**: Municipalities in Belgium
+* **URL**: [https://github.com/miambe/Municipalities-in-Belgium](https://github.com/miambe/Municipalities-in-Belgium)
+* **LICENSE**: MIT ([GitHub][4])
+* **Description**: Clean polygon geometries for all Belgian municipalities provided in both GeoJSON and KML formats, suited to desktop GIS or browser‑based visualization projects. ([GitHub][4])
+
+---
+
+### Belgian Region ZIP (Library + JSON)
+
+* **Resource Name**: belgian‑region‑zip
+* **URL**: [https://github.com/optiosteam/belgian-region-zip](https://github.com/optiosteam/belgian-region-zip)
+* **LICENSE**: MIT ([GitHub][5])
+* **Description**: PHP/JSON dataset of national postal codes grouped by ISO region & province, with helper functions to query municipalities↔ZIP relationships—useful for postal‑based filtering, logistics or demographic dashboards. ([GitHub][5])
 <!-- Add new resources here following the template above -->
