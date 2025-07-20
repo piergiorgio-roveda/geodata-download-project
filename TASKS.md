@@ -98,12 +98,6 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/eea-urban-altas-2018.yaml](https://raw.githubusercontent.com/eurodatacube/public-collections/main/collections/eea-urban-altas-2018.yaml)
 * **Description**: Pan‑European high‑resolution land‑use/land‑cover vectors for 788 Functional Urban Areas across EU, EFTA, West Balkans, UK & Türkiye (2006 / 2012 / 2018 editions) — ideal for zoning, density and green‑space studies.
 
-### GHSL Urban Centre Database (UCDB R2024A)
-
-* **Resource Name**: GHSL Urban Centre Database
-* **URL**: [https://human-settlement.emergency.copernicus.eu/download.php](https://human-settlement.emergency.copernicus.eu/download.php)
-* **Description**: Global shapefiles of Urban‑Centre and Dense‑Urban‑Cluster boundaries (epoch 2020) from the JRC Global Human Settlement Layer, with population, extent and hierarchy attributes for every city ≥50 k inhabitants.
-
 ### HydroBASINS (Sub‑Basins by WRI)
 
 * **Resource Name**: HydroBASINS Sub‑Basins
@@ -176,12 +170,6 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://instatgis.gov.al/](https://instatgis.gov.al/)
 * **Description**: National statistics mapping site with census enumeration areas, demographic indicators, and other statistical layers downloadable for small‑area urban analyses. ([Esri][2])
 
-### SimpleMaps Albania GIS Pack
-
-* **Resource Name**: SimpleMaps Albania GIS Pack
-* **URL**: [https://simplemaps.com/gis/country/al](https://simplemaps.com/gis/country/al)
-* **Description**: Free CC‑BY 4.0 GeoJSON and Shapefile boundaries for Albania and its 12 first‑level regions, optimized for lightweight web mapping. ([Simplemaps][3])
-
 ### Open Data Tirana
 
 * **Resource Name**: Open Data Tirana
@@ -199,5 +187,101 @@ Simple resource tracking for the geoData Download project.
 * **Resource Name**: EEA Albania Reference Shapefile
 * **URL**: [https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/albania-shapefile](https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/albania-shapefile)
 * **Description**: European Environment Agency’s official country boundary shapefile (WGS 84) for a reliable national base layer in regional studies. ([eea.europa.eu][6])
+
+### IDE Andorra Geoportal
+
+* **Resource Name**: IDE Andorra Geoportal
+* **URL**: [https://www.ideandorra.ad/](https://www.ideandorra.ad/)
+* **Description**: Government spatial‑data portal offering WFS/WMS access to administrative units, addresses, land‑use, topography, and other authoritative vector layers through an interactive map viewer and metadata catalogue. ([nexusgeographics.com][1])
+
+### Geological Hazard Zones WMS (Perillositat Geològica 2016)
+
+* **Resource Name**: Geological Hazard Zones WMS
+* **URL**: [https://www.ideandorra.ad/Serveis/wms\_perillgeol/wms](https://www.ideandorra.ad/Serveis/wms_perillgeol/wms)
+* **Description**: Thematic Web Map Service delivering landslide, rock‑fall, and mass‑movement hazard polygons from the 2016 national risk‑zoning study—useful for urban safety and planning constraints. ([Ide Andorra][2])
+
+### GHSL Urban Centre Database (UCDB R2024A)
+
+* **Resource Name**: GHSL Urban Centre Database
+* **URL**: [https://human-settlement.emergency.copernicus.eu/download.php](https://human-settlement.emergency.copernicus.eu/download.php)
+* **Description**: Global shapefiles of Urban‑Centre and Dense‑Urban‑Cluster boundaries (epoch 2020) from the JRC Global Human Settlement Layer, with population, extent and hierarchy attributes for every city ≥50 k inhabitants.
+
+### EuroGlobalMap
+
+* **Resource Name**: EuroGlobalMap 1:1 M Vector Dataset
+* **URL**: [https://www.mapsforeurope.org/datasets/euro-global-map](https://www.mapsforeurope.org/datasets/euro-global-map)
+* **Description**: Pan‑European topographic database from EuroGeographics (administrative boundaries, transport, hydrography, settlements) covering Andorra at 1 : 1 million scale under open licence. ([mapsforeurope.org][6])
+
+### Geoportal Nacionalne infrastrukture prostornih podataka (NIPP)
+
+* **Resource Name**: NIPP Geoportal (Croatian National Spatial Data Infrastructure)
+* **URL**: [https://geoportal.nipp.hr/](https://geoportal.nipp.hr/)
+* **Description**: Central INSPIRE-compliant portal with a metadata catalogue and open WFS/WMS services for hundreds of Croatian vector layers—admin units, cadastre, land-use, protected areas, utilities, etc. ([dgu.gov.hr][1])
+
+### Registar geografskih imena - WFS
+
+* **Resource Name**: Register of Geographical Names of Croatia
+* **URL**: [https://rgi.dgu.hr/geoserver/gn/wfs?request=GetCapabilities\&service=WFS](https://rgi.dgu.hr/geoserver/gn/wfs?request=GetCapabilities&service=WFS)
+* **Description**: Nationwide GeoNames service delivering place-name vectors (counties, municipalities, settlements, islands, rivers, mountains, UNESCO sites) in HTRS96/TM via open WFS for toponymic and cartographic work. ([registri.nipp.hr][2])
+
+### Geoportal Zagrebačke infrastrukture prostornih podataka (ZG Geoportal)
+
+* **Resource Name**: City of Zagreb Geoportal
+* **URL**: [https://geoportal.zagreb.hr/](https://geoportal.zagreb.hr/)
+* **Description**: Municipal open geoportal offering land-use plans (GUP), zoning, demographics, transport, green infrastructure, 3D city model and more—downloadable through ArcGIS WMS/WFS endpoints. ([geoportal.zagreb.hr][3])
+
+### Geoportal kulturnih dobara Republike Hrvatske
+
+* **Resource Name**: Croatian Cultural Property Geoportal
+* **URL**: [https://geoportal.kulturnadobra.hr/](https://geoportal.kulturnadobra.hr/)
+* **Description**: Ministry of Culture WMS/WFS services with vector footprints of immovable cultural heritage sites and protected zones—crucial for heritage constraints in urban planning. ([registri.nipp.hr][4])
+
+### Baza javnih cesta Republike Hrvatske
+
+* **Resource Name**: Database of Public Roads of Croatia (INSPIRE download)
+* **URL**: [https://data.europa.eu/88u/dataset/22437d71-f51d-45a2-b256-ab4be6d01641](https://data.europa.eu/88u/dataset/22437d71-f51d-45a2-b256-ab4be6d01641)
+* **Description**: Complete national road network vectors (state, county, local) published under INSPIRE Roads theme, available for download in GML/GeoPackage for mobility and accessibility studies. ([European Data Portal][5])
+
+### Karta staništa Republike Hrvatske 2004
+
+* **Resource Name**: Croatia Habitat Map 2004 (WFS)
+* **URL**: [https://registri.nipp.hr/izvori/view.php?id=1345](https://registri.nipp.hr/izvori/view.php?id=1345)
+* **Description**: 1 : 100 000 vector layer mapping terrestrial, linear and point habitats across Croatia (minimum unit 9 ha)—useful for green-infrastructure and environmental impact analyses. ([registri.nipp.hr][6])
+
+### Open Data Portal - City of Rijeka
+
+* **Resource Name**: Rijeka Open Data Portal
+* **URL**: [https://data.rijeka.hr/](https://data.rijeka.hr/)
+* **Description**: CKAN-based portal supplying municipal GIS layers such as land-use, utilities, traffic, and budget-related spatial datasets for Croatia’s coastal metropolis. ([rijeka.hr][7])
+
+### State Geodetic Administration Geoportal
+
+* **Resource Name**: State Geodetic Administration Geoportal
+* **URL**: [https://geoportal.dgu.hr/](https://geoportal.dgu.hr/)
+* **Description**: National geoportal serving INSPIRE-ready WFS/WMS layers for Croatia—administrative units, cadastral parcels, addresses, and high-resolution orthophotos. ([qms.nextgis.com][1])
+
+### National Open Data Portal (data.gov.hr)
+
+* **Resource Name**: data.gov.hr Open Data Portal
+* **URL**: [https://data.gov.hr/](https://data.gov.hr/)
+* **Description**: CKAN catalog hosting 100 + shapefile and GeoJSON datasets—3D building models (ZG3D), topographic layers, transport, and environmental themes—downloadable under open licence. ([data.gov.hr][2])
+
+### City of Zagreb Open Data Portal
+
+* **Resource Name**: City of Zagreb Open Data
+* **URL**: [https://data.zagreb.hr/](https://data.zagreb.hr/)
+* **Description**: Municipal hub with 40 + GeoJSON/SHP layers (schools, healthcare, mobility, zoning) refreshed daily; ideal for city-scale planning and dashboards. ([data.zagreb.hr][3])
+
+### City of Rijeka GIS Open Data
+
+* **Resource Name**: GIS Grad Rijeka
+* **URL**: [https://data.gov.hr/ckan/en/dataset/gis-grad-rijeka](https://data.gov.hr/ckan/en/dataset/gis-grad-rijeka)
+* **Description**: WFS/WMS services supplying city boundary, addresses, districts, and historical orthophotos in SHP/GeoJSON for the Rijeka urban area. ([data.gov.hr][4])
+
+### Cultural Heritage Geoportal
+
+* **Resource Name**: Geoportal of Cultural Property
+* **URL**: [https://geoportal.kulturnadobra.hr/](https://geoportal.kulturnadobra.hr/)
+* **Description**: Central access point for vector data on immovable cultural-heritage sites and zones across Croatia, available via map services for heritage-aware planning. ([geoportal.kulturnadobra.hr][5])
 
 <!-- Add new resources here following the template above -->
