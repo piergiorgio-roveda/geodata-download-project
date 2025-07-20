@@ -27,6 +27,12 @@ Simple resource tracking for the geoData Download project.
 - **URL**: https://geoservices.ign.fr/services-web-essentiels
 - **Description**: Accéder gratuitement et librement à nos services web les plus fréquemment utilisés. Pour des requêtes spatiales (sélection d’objets fondée sur des critères géographiques et des valeurs d’attributs des objets).
 
+### MissingRoadsDiscoveryMicrosoft
+
+* **Resource Name**: MissingRoadsDiscoveryMicrosoft
+* **URL**: [https://github.com/microsoft/RoadDetections](https://github.com/microsoft/RoadDetections?tab=readme-ov-file)
+* **Description**: Bing Maps is releasing mined roads around the world. We have detected 54.2M km of roads worldwide. Mining is performed with Bing Maps imagery including Maxar and Airbus. The data is freely available for download and use under the Open Data Commons Open Database License (ODbL). We plan to opensource both NN model and geometry generation code in first half of 2025.
+
 ### Natural Earth GeoJSON
 
 * **Resource Name**: Natural Earth GeoJSON
