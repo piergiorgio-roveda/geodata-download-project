@@ -81,4 +81,10 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://github.com/simonepri/geo-maps](https://github.com/simonepri/geo-maps)
 * **Description**: Programmatically generated high‑quality GeoJSON maps from OpenStreetMap (boundaries, coastlines, natural features) with permissive ODC‑PDDL license. ([GitHub][9])
 
+### Justin Meyers Geospatial Datasets
+
+* **Resource Name**: Justin Meyers Geospatial Datasets
+* **URL**: [https://github.com/justinelliotmeyers](https://github.com/justinelliotmeyers)
+* **Description**: Personal archive of 270 + vector datasets—e.g., a global Sentinel‑2 scene index, official India administrative boundaries & PIN‑codes, village and census layers—shared in Shapefile/GeoJSON for quick urban‑planning analyses. ([github.com][1])
+
 <!-- Add new resources here following the template above -->
