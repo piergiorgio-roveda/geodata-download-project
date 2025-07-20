@@ -349,4 +349,46 @@ Simple resource tracking for the geoData Download project.
 * **LICENSE**: MIT ([GitHub][6])
 * **Description**: Repository hosting cleaned shapefiles of yearly forest‑fire perimeters and an interactive map app; covers four decades of official burned‑area records for risk and land‑management studies. ([GitHub][6])
 
+### Czech GeoJSON Administrative Units
+
+* **Resource Name**: Czech GeoJSON Administrative Units
+* **URL**: [https://github.com/siwekm/czech-geojson](https://github.com/siwekm/czech-geojson)
+* **LICENSE**: CC BY 4.0
+* **Description**: Ready‑to‑use GeoJSON exports of INSPIRE administrative layers—country, regions (kraje), districts (okresy) and municipalities (obce)—parsed into separate files for lightweight mapping and analysis. ([GitHub][1])
+
+### QGIS RUIAN Downloader
+
+* **Resource Name**: QGIS RUIAN Downloader
+* **URL**: [https://github.com/ctu-geoforall-lab/qgis-ruian-plugin](https://github.com/ctu-geoforall-lab/qgis-ruian-plugin)
+* **LICENSE**: GPL‑2.0
+* **Description**: QGIS plugin & scripts that pull authoritative RÚIAN register data (addresses, parcels, buildings, streets) straight from Czech government services and save them as shapefiles/GeoPackages for local use. ([GitHub][2])
+
+### RCzechia R Package
+
+* **Resource Name**: RCzechia R Package
+* **URL**: [https://github.com/jlacko/RCzechia](https://github.com/jlacko/RCzechia)
+* **LICENSE**: MIT
+* **Description**: Provides pre‑packaged shapefiles for Czech LAU/NUTS regions, municipalities, rivers, elevation and more, plus helper functions to download Data50 topographic layers—ideal for rapid spatial analysis in R. ([GitHub][3])
+
+### CzechData R Package
+
+* **Resource Name**: CzechData R Package
+* **URL**: [https://github.com/JanCaha/CzechData](https://github.com/JanCaha/CzechData)
+* **LICENSE**: MIT
+* **Description**: Programmatic interface (R) to fetch diverse Czech open datasets—including RÚIAN, cadastral parcels, census layers and topo maps—returning spatial data frames or raw shapefiles for reproducible workflows. ([GitHub][4])
+
+### Czech & Slovak Free GeoData Collection
+
+* **Resource Name**: Czech & Slovak Free GeoData Collection
+* **URL**: [https://github.com/OpenGeoLabs/czech\_slovak\_freegeodata](https://github.com/OpenGeoLabs/czech_slovak_freegeodata)
+* **LICENSE**: GPL‑3.0
+* **Description**: Repository (with optional QGIS plugin) cataloguing dozens of open WMS/WFS layers, XYZ tiles and downloadable shapefiles—DEM 5G, land‑cover, orthophotos, admin units—plus utilities for quick loading. ([GitHub][5])
+
+### CZ Region Boundaries & ZIP Map
+
+* **Resource Name**: CZ Region Boundaries & ZIP Map
+* **URL**: [https://github.com/JirkaChadima/cz-region-boundaries](https://github.com/JirkaChadima/cz-region-boundaries)
+* **LICENSE**: MIT
+* **Description**: GPS polygon outlines for all Czech regions (kraje) alongside lookup tables linking ZIP codes to counties and regions—handy for geocoding, market studies and regional dashboards. ([GitHub][6])
+
 <!-- Add new resources here following the template above -->
