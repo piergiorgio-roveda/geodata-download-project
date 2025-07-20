@@ -750,4 +750,35 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://github.com/optiosteam/belgian-region-zip](https://github.com/optiosteam/belgian-region-zip)
 * **LICENSE**: MIT ([GitHub][5])
 * **Description**: PHP/JSON dataset of national postal codes grouped by ISO region & province, with helper functions to query municipalities↔ZIP relationships—useful for postal‑based filtering, logistics or demographic dashboards. ([GitHub][5])
+
+### Who’s On First — Monaco Administrative Gazetteer
+
+* **URL**: [https://github.com/whosonfirst-data/whosonfirst-data-admin-mc](https://github.com/whosonfirst-data/whosonfirst-data-admin-mc)
+* **LICENSE**: Creative Commons Zero 1.0 (CC 0) with source‑specific attribution notes where required ([GitHub][1])
+* **Description**: GeoJSON records for every administrative unit in the Principality—from country (ADM0) to local quarters—with stable WOF IDs, centroids, and rich concordances; ideal as an authoritative boundary or lookup layer for any Monaco‑centric project. ([GitHub][2])
+
+---
+
+### Who’s On First — Monaco Postal Codes
+
+* **URL**: [https://github.com/whosonfirst-data/whosonfirst-data-postalcode-mc](https://github.com/whosonfirst-data/whosonfirst-data-postalcode-mc)
+* **LICENSE**: Creative Commons Zero 1.0 (inherits WOF license) ([GitHub][3])
+* **Description**: Open GeoJSON gazetteer covering all Monegasque 980 xx postal codes; includes centroids, hierarchy links and (where available) polygons—ready for geocoding, routing or Pelias imports. ([GitHub][4])
+
+---
+
+### Monaco Boundary GeoJSON (Gist)
+
+* **URL**: [https://gist.github.com/Rub21/841d507390e62a552e06e4603e8de72f](https://gist.github.com/Rub21/841d507390e62a552e06e4603e8de72f)
+* **LICENSE**: Not explicitly specified (assume “all rights reserved” — verify before production use) ([Gist][5])
+* **Description**: Single‑feature GeoJSON combining the national coastline and land border with France, derived from French Cadastre sources—handy as a lightweight outline for quick maps or clipping operations. ([Gist][5])
+
+---
+
+### Natural Earth 10 m Admin 0 — Monaco
+
+* **URL**: [https://github.com/nvkelso/natural-earth-vector](https://github.com/nvkelso/natural-earth-vector) (file: `10m_cultural/ne_10m_admin_0_sovereignty.*`)
+* **LICENSE**: Public Domain ([GitHub][6])
+* **Description**: Public‑domain shapefile/GeoJSON of global country borders; Monaco’s polygon (with ISO, POP\_EST, GDP and capital fields) offers a clean, small‑scale base layer for thematic or reference maps without licensing constraints. ([GitHub][7])
+
 <!-- Add new resources here following the template above -->
