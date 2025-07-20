@@ -562,4 +562,47 @@ Simple resource tracking for the geoData Download project.
 * **LICENSE**: MIT
 * **Description**: Generates a full GTFS feed—including route shapes and stop geometry—for Poland’s largest regional rail operator (PolRegio) from public APIs, providing up-to-date vector data for multimodal and accessibility studies. ([GitHub][5])
 
+### GeoJSON Italy — Municipal, Province, Region Boundaries
+
+* **Resource Name**: GeoJSON Italy
+* **URL**: [https://github.com/openpolis/geojson-italy](https://github.com/openpolis/geojson-italy)
+* **LICENSE**: CC BY 4.0 ([GitHub][1])
+* **Description**: Ready‑made, unsimplified GeoJSON (and light TopoJSON) for every Italian municipality, province and region, auto‑updated when ISTAT publishes new boundary shapefiles—perfect drop‑in base layer for national or local projects. ([GitHub][1])
+
+---
+
+### Confini ISTAT GeoJSON Builder
+
+* **Resource Name**: Confini ISTAT GeoJSON
+* **URL**: [https://github.com/dclfbk/confini\_istat](https://github.com/dclfbk/confini_istat)
+* **LICENSE**: Apache‑2.0 (code) + CC BY 3.0 (underlying ISTAT data) ([GitHub][2])
+* **Description**: Python/Notebook workflow that fetches official ISTAT shapefiles and converts them to lightweight GeoJSON, Geobuf and TopoJSON; includes ready‑to‑use outputs for regions, provinces and municipalities. ([GitHub][2])
+
+---
+
+### DPC Structural Aggregates (ITF Macro‑Regions)
+
+* **Resource Name**: Dipartimento Protezione Civile — Aggregati Strutturali
+* **URL**: [https://github.com/pcm-dpc/DPC-Aggregati-Strutturali-ITF-Sud](https://github.com/pcm-dpc/DPC-Aggregati-Strutturali-ITF-Sud)
+* **LICENSE**: CC BY 4.0 ([GitHub][3])
+* **Description**: High‑detail vector polygons grouping contiguous buildings into “structural aggregates” for post‑disaster safety inspections; covers each NUTS‑1 macro‑region (Nord‑Ovest, Nord‑Est, Centro, Sud, Isole) with full metadata—valuable for seismic‑risk and urban‑fabric studies. ([GitHub][4])
+
+---
+
+### Italian Electoral Precincts (SEI)
+
+* **Resource Name**: Dati Sezioni Elettorali
+* **URL**: [https://github.com/gabrielepinto/dati-sezioni-elettorali](https://github.com/gabrielepinto/dati-sezioni-elettorali)
+* **LICENSE**: No formal license; author allows free academic/non‑profit use with attribution ([GitHub][5])
+* **Description**: Shapefiles and GeoJSON for municipal polling‑station precincts in Rome, Milan, Turin, Genoa, Florence, Bologna and Palermo, plus turnout/results tables—ideal for fine‑grained electoral or demographic analysis. ([GitHub][5])
+
+---
+
+### Global ML Building Footprints — Italy Subset
+
+* **Resource Name**: Microsoft Global Building Footprints (Italy)
+* **URL**: [https://github.com/microsoft/GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
+* **LICENSE**: ODbL 1.0 ([GitHub][6])
+* **Description**: Machine‑learning‑extracted polygons for \~15 million Italian buildings (GeoJSON/CSV‑GZ) with periodic height updates—handy for exposure mapping, density metrics and 3D city experiments without heavier LiDAR sources. ([GitHub][6])
+
 <!-- Add new resources here following the template above -->
