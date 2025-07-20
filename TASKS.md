@@ -164,4 +164,40 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://land.copernicus.eu/en/products/urban-atlas/street-tree-layer-stl-2018](https://land.copernicus.eu/en/products/urban-atlas/street-tree-layer-stl-2018)
 * **Description**: Vector layer of contiguous street‑tree patches (≥ 500 m², ≥ 10 m wide) inside 780+ European Functional Urban Areas—handy for urban canopy, cooling and greening strategies.
 
+### ASIG National Geoportal
+
+* **Resource Name**: ASIG National Geoportal
+* **URL**: [https://geoportal.asig.gov.al/](https://geoportal.asig.gov.al/)
+* **Description**: Official Albanian government portal serving vector layers such as administrative‑territorial units, address system, cadastral parcels, and orthophotos via WFS/WMS for planning workflows. ([Wikipedia][1])
+
+### INSTAT WebGIS
+
+* **Resource Name**: INSTAT WebGIS
+* **URL**: [https://instatgis.gov.al/](https://instatgis.gov.al/)
+* **Description**: National statistics mapping site with census enumeration areas, demographic indicators, and other statistical layers downloadable for small‑area urban analyses. ([Esri][2])
+
+### SimpleMaps Albania GIS Pack
+
+* **Resource Name**: SimpleMaps Albania GIS Pack
+* **URL**: [https://simplemaps.com/gis/country/al](https://simplemaps.com/gis/country/al)
+* **Description**: Free CC‑BY 4.0 GeoJSON and Shapefile boundaries for Albania and its 12 first‑level regions, optimized for lightweight web mapping. ([Simplemaps][3])
+
+### Open Data Tirana
+
+* **Resource Name**: Open Data Tirana
+* **URL**: [https://ckan.tirana.al/](https://ckan.tirana.al/)
+* **Description**: CKAN‑powered municipal portal offering zoning, transport, and infrastructure datasets with API endpoints for automated downloads. ([Dateno][4])
+
+### HydroBASINS Sub‑Basins (WRI)
+
+* **Resource Name**: HydroBASINS Sub‑Basins Repository
+* **URL**: [https://github.com/wri/sub\_basins](https://github.com/wri/sub_basins)
+* **Description**: GitHub project refining HydroBASINS hydrological polygons—includes Albania’s catchments for flood‑risk and watershed planning, provided in GeoPackage/GeoJSON. ([GitHub][5])
+
+### EEA Albania Reference Shapefile
+
+* **Resource Name**: EEA Albania Reference Shapefile
+* **URL**: [https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/albania-shapefile](https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/albania-shapefile)
+* **Description**: European Environment Agency’s official country boundary shapefile (WGS 84) for a reliable national base layer in regional studies. ([eea.europa.eu][6])
+
 <!-- Add new resources here following the template above -->
