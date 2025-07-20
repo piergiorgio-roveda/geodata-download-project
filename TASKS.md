@@ -33,6 +33,13 @@ Simple resource tracking for the geoData Download project.
 * **URL**: [https://github.com/microsoft/RoadDetections](https://github.com/microsoft/RoadDetections?tab=readme-ov-file)
 * **Description**: Bing Maps is releasing mined roads around the world. We have detected 54.2M km of roads worldwide. Mining is performed with Bing Maps imagery including Maxar and Airbus. The data is freely available for download and use under the Open Data Commons Open Database License (ODbL). We plan to opensource both NN model and geometry generation code in first half of 2025.
 
+### Global ML Building Footprints
+
+* **Resource Name**: Microsoft Global Building Footprints (Italy)
+* **URL**: [https://github.com/microsoft/GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
+* **LICENSE**: ODbL 1.0 ([GitHub][6])
+* **Description**: Machine‑learning‑extracted polygons for \~15 million Italian buildings (GeoJSON/CSV‑GZ) with periodic height updates—handy for exposure mapping, density metrics and 3D city experiments without heavier LiDAR sources. ([GitHub][6])
+
 ### Natural Earth GeoJSON
 
 * **Resource Name**: Natural Earth GeoJSON
@@ -604,11 +611,40 @@ Simple resource tracking for the geoData Download project.
 
 ---
 
-### Global ML Building Footprints — Italy Subset
+### GeoJSON‑TopoJSON Austria
 
-* **Resource Name**: Microsoft Global Building Footprints (Italy)
-* **URL**: [https://github.com/microsoft/GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
-* **LICENSE**: ODbL 1.0 ([GitHub][6])
-* **Description**: Machine‑learning‑extracted polygons for \~15 million Italian buildings (GeoJSON/CSV‑GZ) with periodic height updates—handy for exposure mapping, density metrics and 3D city experiments without heavier LiDAR sources. ([GitHub][6])
+* **Resource Name**: GeoJSON‑TopoJSON Austria
+* **URL**: [https://github.com/ginseng666/GeoJSON-TopoJSON-Austria](https://github.com/ginseng666/GeoJSON-TopoJSON-Austria)
+* **LICENSE**: CC BY 4.0
+* **Description**: Complete municipality, district & state boundaries (multiple vintage folders 2016‑2021) converted from Statistik Austria shapefiles to ready‑to‑use GeoJSON/TopoJSON, with various simplification levels for fast web mapping. ([GitHub][1])
+
+---
+
+### Austria Post & Area Code Map
+
+* **Resource Name**: Austria Post & Area Code Map
+* **URL**: [https://github.com/pkolmann/austria-post-and-area-code](https://github.com/pkolmann/austria-post-and-area-code)
+* **LICENSE**: RTR Open Government Data terms (CC BY‑style; repo itself has no separate license file)
+* **Description**: GeoJSON layers that join national postal‑code polygons (PLZ) and telephone area‑code zones from the telecom regulator RTR with Statistik Austria IDs—handy for market reach, delivery routing, and telco planning. ([GitHub][2])
+
+---
+
+### Austrian Neighbourhood Maps (Vienna Grätzl)
+
+* **Resource Name**: Austrian Neighbourhood Maps
+* **URL**: [https://github.com/apa-newsroom/austrian-neighbourhood-maps](https://github.com/apa-newsroom/austrian-neighbourhood-maps)
+* **LICENSE**: CC BY 4.0
+* **Description**: Fine‑grained GeoJSON delineations of 137 Vienna neighbourhoods (“Grätzl”) plus election‑year district variants (2022–2025), built from census & electoral zones—ideal for hyper‑local urban analytics and storytelling. ([GitHub][3])
+
+---
+
+### BEV Address Data Loader
+
+* **Resource Name**: BEV Address Data Loader
+* **URL**: [https://github.com/the42/bevaddress-dataload](https://github.com/the42/bevaddress-dataload)
+* **LICENSE**: MIT
+* **Description**: Scripts, SQL, and Docker setup to ingest Austria’s authoritative BEV address register into PostGIS—gives street‑level points with coordinates and metadata for geocoding or address QA workflows. ([GitHub][4])
+
+---
 
 <!-- Add new resources here following the template above -->
