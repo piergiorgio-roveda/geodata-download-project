@@ -527,4 +527,39 @@ Simple resource tracking for the geoData Download project.
 * **LICENSE**: *Unspecified*
 * **Description**: Per‑county GeoJSON layers of all inhabited places—useful for locator maps, population joins or regional choropleths without heavyweight datasets. ([GitHub][7])
 
+### Polska GeoJSON
+
+* **Resource Name**: Polska geojson
+* **URL**: [https://github.com/ppatrzyk/polska-geojson](https://github.com/ppatrzyk/polska-geojson)
+* **LICENSE**: MIT
+* **Description**: High-quality GeoJSON conversions of official shapefiles for all Polish administrative tiers—voivodeships, counties and selected city outlines—with lighter, simplified variants for fast web mapping. ([GitHub][1])
+
+### Poland GeoJson
+
+* **Resource Name**: Poland GeoJson
+* **URL**: [https://github.com/jusuff/PolandGeoJson](https://github.com/jusuff/PolandGeoJson)
+* **LICENSE**: Unlicense
+* **Description**: Complete national, voivodeship, county and municipality boundary layers derived from GUGiK sources, already dissolved and simplified into lightweight GeoJSON files. ([GitHub][2])
+
+### rgugik (R package)
+
+* **Resource Name**: rgugik – Polish Geodesy & Cartography Downloader
+* **URL**: [https://github.com/kadyb/rgugik](https://github.com/kadyb/rgugik)
+* **LICENSE**: MIT
+* **Description**: R toolkit that programmatically fetches authoritative open datasets from Poland’s Head Office of Geodesy & Cartography—orthophotos, DEMs, address points, cadastral parcels, administrative borders and more—returning them as ready-to-use spatial objects or files. ([GitHub][3])
+
+### PostCodesMaps
+
+* **Resource Name**: PostCodesMaps – Polish Postcode Polygons
+* **URL**: [https://github.com/GML22/PostCodesMaps](https://github.com/GML22/PostCodesMaps)
+* **LICENSE**: MIT
+* **Description**: Python workflow that parses the national PRG address database to build geodatabase and GeoJSON boundary layers for every Polish postcode area, useful for logistics, market analysis and geocoding tasks. ([GitHub][4])
+
+### PolRegio GTFS
+
+* **Resource Name**: PolRegio GTFS
+* **URL**: [https://github.com/MKuranowski/PolRegioGTFS](https://github.com/MKuranowski/PolRegioGTFS)
+* **LICENSE**: MIT
+* **Description**: Generates a full GTFS feed—including route shapes and stop geometry—for Poland’s largest regional rail operator (PolRegio) from public APIs, providing up-to-date vector data for multimodal and accessibility studies. ([GitHub][5])
+
 <!-- Add new resources here following the template above -->
